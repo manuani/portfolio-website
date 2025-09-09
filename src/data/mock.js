@@ -101,7 +101,7 @@ export const portfolioData = {
     ]
   },
 
-  experience: [
+  experiences: [
     {
       id: 1,
       company: "Nextiva",
