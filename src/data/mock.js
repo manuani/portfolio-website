@@ -1,42 +1,5 @@
 // Professional Portfolio Data for Srinivasan "Murali" Muralidharan
-export const blogPosts = [
-  {
-    id: 1,
-    title: "Digital Transformation in the AI Era",
-    excerpt: "How organizations can leverage AI and machine learning to drive meaningful digital transformation and competitive advantage.",
-    content: "Full blog content here...",
-    author: "Srinivasan Muralidharan",
-    date: "2024-01-15",
-    readTime: "8 min read",
-    category: "Technology",
-    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop",
-    tags: ["AI", "Digital Transformation", "Strategy"]
-  },
-  {
-    id: 2,
-    title: "Cloud Architecture Best Practices",
-    excerpt: "Essential strategies for building scalable, secure, and cost-effective cloud infrastructures for enterprise applications.",
-    content: "Full blog content here...",
-    author: "Srinivasan Muralidharan", 
-    date: "2024-02-10",
-    readTime: "6 min read",
-    category: "Cloud",
-    image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&h=400&fit=crop",
-    tags: ["Cloud", "Architecture", "DevOps"]
-  },
-  {
-    id: 3,
-    title: "Cybersecurity Leadership in 2024",
-    excerpt: "Key trends and strategies for cybersecurity leaders to protect organizations in an evolving threat landscape.",
-    content: "Full blog content here...",
-    author: "Srinivasan Muralidharan",
-    date: "2024-03-05", 
-    readTime: "10 min read",
-    category: "Security",
-    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=400&fit=crop",
-    tags: ["Cybersecurity", "Leadership", "Risk Management"]
-  }
-];
+
 export const portfolioData = {
   personal: {
     name: "Srinivasan Muralidharan",
@@ -317,3 +280,41 @@ export const portfolioData = {
     }
   ]
 };
+export const blogPosts = [
+  {
+    id: 1,
+    title: "Digital Transformation in the AI Era",
+    excerpt: "How organizations can leverage AI and machine learning to drive meaningful digital transformation and competitive advantage.",
+    content: "Full blog content here...",
+    author: "Srinivasan Muralidharan",
+    date: "2024-01-15",
+    readTime: "8 min read",
+    category: "Technology",
+    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop",
+    tags: ["AI", "Digital Transformation", "Strategy"]
+  },
+  {
+    id: 2,
+    title: "Cloud Architecture Best Practices",
+    excerpt: "Essential strategies for building scalable, secure, and cost-effective cloud infrastructures for enterprise applications.",
+    content: "Full blog content here...",
+    author: "Srinivasan Muralidharan", 
+    date: "2024-02-10",
+    readTime: "6 min read",
+    category: "Cloud",
+    image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&h=400&fit=crop",
+    tags: ["Cloud", "Architecture", "DevOps"]
+  },
+  {
+    id: 3,
+    title: "Cybersecurity Leadership in 2024",
+    excerpt: "Key trends and strategies for cybersecurity leaders to protect organizations in an evolving threat landscape.",
+    content: "Full blog content here...",
+    author: "Srinivasan Muralidharan",
+    date: "2024-03-05", 
+    readTime: "10 min read",
+    category: "Security",
+    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=400&fit=crop",
+    tags: ["Cybersecurity", "Leadership", "Risk Management"]
+  }
+];
