@@ -150,18 +150,6 @@ export const education = [
       "Published 3 papers on distributed computing",
       "Summa Cum Laude"
     ]
-  },
-  {
-    degree: "Bachelor of Engineering in Computer Science",
-    institution: "Indian Institute of Technology",
-    year: "1998",
-    location: "India",
-    description: "Foundation in Computer Science and Engineering",
-    achievements: [
-      "Top 1% of graduating class",
-      "Gold Medal for Academic Excellence",
-      "President of Computer Science Society"
-    ]
   }
 ];
 
@@ -187,13 +175,6 @@ export const certifications = [
     year: "2021",
     status: "active",
     description: "Strategic portfolio management and alignment"
-  },
-  {
-    name: "Google Cloud Professional Cloud Architect",
-    issuer: "Google Cloud",
-    year: "2023",
-    status: "active",
-    description: "Google Cloud platform architecture and design"
   }
 ];
 
@@ -234,17 +215,23 @@ export const blogPosts = [
     category: "Security",
     image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=400&fit=crop",
     tags: ["Cybersecurity", "Leadership", "Risk Management", "Compliance"]
-  },
-  {
-    id: 4,
-    title: "Building High-Performance Technology Teams",
-    excerpt: "Proven strategies for recruiting, developing, and retaining top technology talent in competitive markets.",
-    content: "Full blog content would go here...",
-    author: "Srinivasan Muralidharan", 
-    date: "2024-03-20",
-    readTime: "7 min read",
-    category: "Leadership",
-    image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=400&fit=crop", 
-    tags: ["Team Building", "Talent Management", "Leadership", "Culture"]
   }
 ];
+
+// Combined portfolio data export (for components expecting this structure)
+export const portfolioData = {
+  personalInfo,
+  skills,
+  experiences,
+  projects,
+  education,
+  certifications,
+  blogPosts
+};
+
+// Default export
+export default portfolioData;
+
+// Additional exports that might be needed
+export const portfolio = portfolioData;
+export const data = portfolioData;
