@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowRight, Download, Mail, Phone, Linkedin, Star, Award, TrendingUp } from 'lucide-react';
-//import { Button } from './ui/button';
+
 
 const Hero = ({ data }) => {
   const scrollToSection = (sectionId) => {
